@@ -1,0 +1,41 @@
+ .top_Nav{
+    display: flex;
+    background-color: cyan;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    width:97%;
+    justify-content: space-between;
+ }
+
+.nav_Left{
+   display: flex;
+   width: 50%;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.nav_Left_Part {
+    list-style-type: none;
+    font-weight: 400;
+    text-decoration: none ;
+    font-size: 20px;
+}
+
+.decoration_Logo{
+   text-decoration: none ;
+   background: red;
+   font-size: 20px ;
+   font-weight: 600;
+   padding: 5px 10px 5px 10px;
+   border-radius: 10px;
+}
+
+.decoration{
+   text-decoration: none ;
+}
+
+.nav_Right_Part{
+   color: black;
+   font-weight: 600;
+}
